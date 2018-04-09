@@ -273,7 +273,7 @@ h2 {
 .link--download {
   margin: 20px 20px 0 0;
   display: inline-block;
-  width: 170px;
+  min-width: 170px;
   height: 70px;
   background: #4a5265;
   background: #000;
@@ -288,6 +288,11 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.2em;
 }
 
 .link--download:not(.disabled):hover {
@@ -727,7 +732,22 @@ h2 {
   color: #fd5f00;
 }
 
+.company-intro {
+  font-size: 0.8em;
+  line-height: 1.6em;
+  color: #777;
+  text-align: center;
+  margin-top: 48px;
+  margin-left: 350px;
+  text-align: left;
+}
+
 @media (max-width: 900px) {
+  .company-intro {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .header {
     padding: 10px 20px;
     font-size: 1.4em;
