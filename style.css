@@ -47,6 +47,19 @@ h4 {
   font-size: 1.5em;
 }
 
+.intro-title {
+  color: #eee;
+  font-family: "Futurice Regular", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  text-align: center;
+  font-weight: normal;
+  font-size: 2em;
+  line-height: 1.2;
+  top: -20px;
+  position: relative;
+}
+
 /* # Sections */
 .section {
   min-height: 100px;
@@ -233,7 +246,7 @@ h2 {
 .mockup {
   max-width: 400px;
   display: block;
-  margin: 0 auto 5vh;
+  margin: 120px auto 6vh;
 
   left: -100px;
   position: relative;
@@ -258,7 +271,7 @@ h2 {
   animation: fade-in 0.6s;
   animation-delay: 0.5s;
   animation-fill-mode: forwards;
-  margin-left: 50px;
+  margin-left: 400px;
 }
 
 .tagline__buttons {
@@ -366,6 +379,10 @@ h2 {
   justify-content: center;
 }
 
+.extra-padding {
+  padding-bottom: 32px;
+}
+
 /* Section - Behind */
 .section--behind {
   padding: 0;
@@ -468,6 +485,7 @@ h2 {
 .paragraph {
   font-size: 1.2em;
   color: #000;
+  margin-bottom: 30px;
 }
 
 .section--behind .col h3 {
@@ -505,7 +523,7 @@ h2 {
 
 /* Section - BG */
 .section--bg {
-  min-height: 600px;
+  min-height: 420px;
   background: url(./assets/gif/city2.gif) 50% 50% no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -732,18 +750,12 @@ h2 {
   color: #fd5f00;
 }
 
-.company-intro {
-  font-size: 0.8em;
-  line-height: 1.6em;
-  color: #777;
-  text-align: center;
-  margin-top: 48px;
-  margin-left: 350px;
-  text-align: left;
+.company-info {
+  color: #999;
 }
 
 @media (max-width: 900px) {
-  .company-intro {
+  .company-info {
     margin-left: auto;
     margin-right: auto;
   }
@@ -914,7 +926,7 @@ h2 {
 
   .footer .container {
     padding: 30px 30px;
-    text-align: left;
+    text-align: center;
   }
 
   .footer-brand {
