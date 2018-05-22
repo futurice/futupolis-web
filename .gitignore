@@ -1,2 +1,4 @@
 /heroku
 /dist
+
+*.sublime-*
